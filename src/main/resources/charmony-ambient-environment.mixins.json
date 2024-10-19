@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "svenhjol.charmony.ambient_environment.mixins",
+  "compatibilityLevel": "JAVA_21",
+  "refmap": "${refmap_file}",
+  "plugin": "svenhjol.charmony.ambient_environment.mixins.MixinConfig",
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "charmony-ambient-environment",
+  "version": "${mod_version}",
+
+  "name": "Charmony ambient environment",
+  "description": "Simple environment and atmospheric effects for Minecraft. Compatible with vanilla servers such as Realms.",
+  "authors": [
+    "svenhjol"
+  ],
+  "icon": "assets/charmony-ambient-environment/textures/gui/sprites/icon.png",
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "charmony-ambient-environment.mixins.json"
+  ],
+  "accessWidener": "charmony-ambient-environment.accesswidener",
+
+  "entrypoints": {
+    "client": [
+      "svenhjol.charmony.ambient_environment.client.ClientInitializer"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "*",
+    "java": ">=21",
+    "fabric-api": "*",
+    "charmony-nano": "${charmony_version}",
+    "charmony-api": "${api_version}"
+  },
+
+  "contact": {
+    "homepage": "https://charmony.work",
+    "sources": "https://github.com/svenhjol/${mod_id}"
+  }
+}
