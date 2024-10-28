@@ -27,7 +27,7 @@
     "minecraft": "*",
     "java": ">=21",
     "fabric-api": "*",
-    "charmony-nano": "${charmony_version}",
+    "charmony": "${charmony_version}",
     "charmony-api": "${api_version}"
   },
 
